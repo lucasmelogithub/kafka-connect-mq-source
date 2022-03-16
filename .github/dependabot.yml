@@ -2,16 +2,16 @@ version: 1
 updates:
   - package-ecosystem: "maven"
     directory: "/"
-    # Check the maven registry for updates every day(weekdays)
+    # Check the maven registry for updates every day (weekdays)
     schedule:
       interval: "daily"
   - package-ecosystem: "gradle"
     directory: "/"
-    # Check the gradle registry for updates every day(weekdays)
+    # Check the gradle registry for updates every day (weekdays)
     schedule:
       interval: "daily"
   - package-ecosystem: "docker"
     directory: "/"
-    # Check the docker registry for updates every day(weekdays)
+    # Check the docker registry for updates every day (weekdays)
     schedule:
       interval: "daily"
